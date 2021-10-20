@@ -3,10 +3,36 @@
   flex-wrap: wrap;
   justify-content: center;
 
-  max-width: 1024px;
+  max-width: 1200px;
   margin: auto;
+}
+html {
+  padding: 0;
+  margin: 0;
+}
+main {
+  background: black;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 0;
+}
+body {
+  margin: 0;
 }
 
 .gallery > * {
   margin: 1em;
+}
+img {
+  max-width: 300px;
+  max-height: 500px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4em;
+  margin: 0 auto;
+  padding: 1em 0em 0em 0em;
+  text-shadow: red 5px;
+  color:green;
 }

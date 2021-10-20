@@ -6,9 +6,9 @@ let alt = "";
 
 // images
 // TODO - Label const accurately
-const x  = [
+const images  = [
   {
-    id:            '',
+    id:            '1',
     title:         '',
     description:   '',
     width:         '',
@@ -19,7 +19,7 @@ const x  = [
     creditUrl:     ''
   },
   {
-    id:            '',
+    id:            '2',
     title:         '',
     description:   '',
     width:         '',
@@ -30,7 +30,7 @@ const x  = [
     creditUrl:     ''
   },
   {
-    id:            '',
+    id:            '3',
     title:         '',
     description:   '',
     width:         '',
@@ -41,7 +41,7 @@ const x  = [
     creditUrl:     ''
   },
   {
-    id:            '',
+    id:            '4',
     title:         '',
     description:   '',
     width:         '',
@@ -52,7 +52,7 @@ const x  = [
     creditUrl:     ''
   },
   {
-    id:            '',
+    id:            '5',
     title:         '',
     description:   '',
     width:         '',
@@ -62,13 +62,69 @@ const x  = [
     credit:        '',
     creditUrl:     ''
   },
+  {
+    id:            '6',
+    title:         '',
+    description:   '',
+    width:         '',
+    height:        '',
+    pathUrl:       '',
+    linkUrl:       '',
+    credit:        '',
+    creditUrl:     ''
+  },
+  {
+    id:            '7',
+    title:         '',
+    description:   '',
+    width:         '',
+    height:        '',
+    pathUrl:       '',
+    linkUrl:       '',
+    credit:        '',
+    creditUrl:     ''
+  },
+  {
+    id:            '8',
+    title:         '',
+    description:   '',
+    width:         '',
+    height:        '',
+    pathUrl:       '',
+    linkUrl:       '',
+    credit:        '',
+    creditUrl:     ''
+  },
+  {
+    id:            '9',
+    title:         '',
+    description:   '',
+    width:         '',
+    height:        '',
+    pathUrl:       '',
+    linkUrl:       '',
+    credit:        '',
+    creditUrl:     ''
+  },
+  {
+    id:            '10',
+    title:         '',
+    description:   '',
+    width:         '',
+    height:        '',
+    pathUrl:       '',
+    linkUrl:       '',
+    credit:        '',
+    creditUrl:     ''
+  }
+  
  ];
 
 // Locally Hosted Images -  forEach loop
 // TODO - correct local host file structure in img src
- x.forEach(function(y){
+ images.forEach(function(image){
   output += `<a href="..."> 
-  <img src="images/x-ids/size/${x-id.id}.jpg"
+  <img src="images/x-ids/size/${images.id}.jpg"
   alt = "${description}"></a>`
 });
 
