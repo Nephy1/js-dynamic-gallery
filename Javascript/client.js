@@ -131,7 +131,6 @@ images.forEach(function(image){
   </figcaption>
   <a href="${image.linkUrl}">Original</a>
   </section>`
-  console.log(output);
 });
 
  const gallery = document.querySelector('.gallery');
