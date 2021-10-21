@@ -1,18 +1,18 @@
-
+"use strict"
 // Declaring lets for error prevention
 
 let output = "";
 let alt = "";
 
 // images
-// TODO - Label const accurately
+
 const images  = [
   {
     id:            '1',
-    title:         'Night life in Asia',
+    title:         'Night Life In Asia',
     description:   'Photo of a district at night somewhere in Asia',
-    width:         '300',
-    height:        '450',
+    width:         '267',
+    height:        '400',
     pathUrl:       'Images/array-images/asia-night-life.jpeg',
     linkUrl:       'https://www.pexels.com/photo/anonymous-people-walking-on-city-street-near-building-at-night-6635766/',
     credit:        'Wencheng Jiang',
@@ -22,8 +22,8 @@ const images  = [
     id:            '2',
     title:         'Birds Eye View',
     description:   'Photo of traffic at night from a rooftop',
-    width:         '300',
-    height:        '450',
+    width:         '267',
+    height:        '400',
     pathUrl:       'Images/array-images/bird-view-night-life.jpeg',
     linkUrl:       'https://www.pexels.com/photo/aerial-photography-of-city-buildings-during-nighttime-2446930/',
     credit:        'Anna Lowe',
@@ -33,9 +33,9 @@ const images  = [
     id:            '3',
     title:         'Close For Comfort',
     description:   'Cars parking in a tight alleyway at night',
-    width:         '300',
-    height:        '450',
-    pathUrl:       'Images\array-images\cars-night-life.jpeg',
+    width:         '267',
+    height:        '400',
+    pathUrl:       'Images/array-images/cars-night-life.jpeg',
     linkUrl:       'https://www.pexels.com/photo/car-parked-near-the-building-2272825/',
     credit:        'Vitor Gusmao Shimabukuro',
     creditUrl:     'https://www.pexels.com/@vitor-gusmao-shimabukuro-1110669'
@@ -44,9 +44,9 @@ const images  = [
     id:            '4',
     title:         'Dark',
     description:   'Dark alleyway with chairs and tables',
-    width:         '300',
-    height:        '450',
-    pathUrl:       'Images\array-images\dark-lit-night-life.jpeg',
+    width:         '267',
+    height:        '400',
+    pathUrl:       'Images/array-images/dark-lit-night-life.jpeg',
     linkUrl:       'https://www.pexels.com/photo/dark-alley-with-turned-on-street-lamps-2376799/',
     credit:        'Nicolas Postiglioni',
     creditUrl:     'https://www.pexels.com/@postiglioni'
@@ -55,9 +55,9 @@ const images  = [
     id:            '5',
     title:         'Dim and Damp',
     description:   'People in a market district at night',
-    width:         '300',
-    height:        '450',
-    pathUrl:       'Images\array-images\dim-lit-night-life.jpeg',
+    width:         '267',
+    height:        '400',
+    pathUrl:       'Images/array-images/dim-lit-night-life.jpeg',
     linkUrl:       'https://www.pexels.com/photo/people-standing-between-buildings-during-nighttime-3075535/',
     credit:        'Connor Danylenko',
     creditUrl:     'https://www.pexels.com/@connor-danylenko-534256'
@@ -67,8 +67,8 @@ const images  = [
     title:         'Empty',
     description:   'Ground level photo of an empty street downtown',
     width:         '300',
-    height:        '450',
-    pathUrl:       'Images\array-images\downtown-night-life.jpeg',
+    height:        '390',
+    pathUrl:       'Images/array-images/downtown-night-life.jpeg',
     linkUrl:       'https://www.pexels.com/photo/white-concrete-buildin-3396883/',
     credit:        'Josh Hild',
     creditUrl:     'https://www.pexels.com/@josh-hild-1270765'
@@ -78,8 +78,8 @@ const images  = [
     title:         'Look Up',
     description:   'An insanely tall building in Dubai',
     width:         '300',
-    height:        '450',
-    pathUrl:       'Images\array-images\highrise-night-life.jpeg',
+    height:        '400',
+    pathUrl:       'Images/array-images/highrise-night-life.jpeg',
     linkUrl:       'https://www.pexels.com/photo/people-standing-near-high-rise-building-during-night-time-1707310/',
     credit:        'Zaib Azhar',
     creditUrl:     'https://www.pexels.com/@zaib'
@@ -88,9 +88,9 @@ const images  = [
     id:            '8',
     title:         'Shift Work',
     description:   'An ambulance parked on the side of the road in the winter',
-    width:         '300',
-    height:        '450',
-    pathUrl:       'Images\array-images\medic-night-life.jpeg',
+    width:         '267',
+    height:        '400',
+    pathUrl:       'Images/array-images/medic-night-life.jpeg',
     linkUrl:       'https://www.pexels.com/photo/person-standing-beside-car-1853537/',
     credit:        'Artem Saranin',
     creditUrl:     'https://www.pexels.com/@arts'
@@ -99,9 +99,9 @@ const images  = [
     id:            '9',
     title:         'Blurred Reflection',
     description:   'Photo of downtown at night with its reflection blurred in some water',
-    width:         '300',
-    height:        '450',
-    pathUrl:       'Images\array-images\reflection-night-life.jpeg',
+    width:         '267',
+    height:        '400',
+    pathUrl:       'Images/array-images/reflection-night-life.jpeg',
     linkUrl:       'https://www.pexels.com/photo/city-buildings-during-night-time-3643104/',
     credit:        'Efrain Alonso',
     creditUrl:     'https://www.pexels.com/@efrain-alonso-1702385'
@@ -110,9 +110,9 @@ const images  = [
     id:            '10',
     title:         'Busy Busses',
     description:   'Timelapse photo of someone at a bus stop',
-    width:         '300',
-    height:        '450',
-    pathUrl:       'Images\array-images\timelapse-night-life.jpeg',
+    width:         '267',
+    height:        '400',
+    pathUrl:       'Images/array-images/timelapse-night-life.jpeg',
     linkUrl:       'https://www.pexels.com/photo/person-standing-by-the-bus-stop-1829183/',
     credit:        'Brayden Law',
     creditUrl:     'https://www.pexels.com/@braydenlaw'
@@ -121,11 +121,17 @@ const images  = [
  ];
 
 // Locally Hosted Images -  forEach loop
-// TODO - correct local host file structure in img src
- images.forEach(function(image){
-  output += `<a href="..."> 
-  <img src="images/x-ids/size/${images.id}.jpg"
-  alt = "${description}"></a>`
+ 
+images.forEach(function(image){
+  output += `<section><a href="${image.linkUrl}"> 
+  <img src="${image.pathUrl}"
+  alt = "${image.description}"></a>
+  <figcaption>
+  <p>${image.id}: ${image.title}, by ${image.credit}</p>
+  </figcaption>
+  <a href="${image.linkUrl}">Original</a>
+  </section>`
+  console.log(output);
 });
 
  const gallery = document.querySelector('.gallery');

@@ -5,19 +5,31 @@
 
   max-width: 1200px;
   margin: auto;
+  text-align: center;
 }
+
 html {
   padding: 0;
   margin: 0;
 }
 main {
   background: black;
-  height: 100vh;
+  height: 100%;
   margin: 0 auto;
   padding: 0;
 }
 body {
   margin: 0;
+}
+section {
+  text-align: center;
+  
+}
+figcaption {
+  display: inline;
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .gallery > * {
@@ -25,7 +37,7 @@ body {
 }
 img {
   max-width: 300px;
-  max-height: 500px;
+  max-height: 400px;
 }
 
 h1 {
@@ -33,6 +45,13 @@ h1 {
   font-size: 4em;
   margin: 0 auto;
   padding: 1em 0em 0em 0em;
-  text-shadow: red 5px;
-  color:green;
+  color: snow;
+}
+p {
+color: snow;
+max-width: 20ch;
+text-align: center;
+}
+img {
+  box-shadow: snow 0px 1px 10px 3px;
 }
