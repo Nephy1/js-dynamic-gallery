@@ -1,7 +1,7 @@
 # Dynamic Imagine Gallery With JS
 
 https://github.com/Nephy1/cpnt-262-a2
-https://nephy1.github.io/cpnt-262-a2/
+https://nephy1.github.io/js-dynamic-gallery/
 
 Titles were my own personal made up titles for this assignment. 
 
